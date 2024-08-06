@@ -1,4 +1,4 @@
-# Chatbot Ollama Project
+# AI Chatbot Ollama Project
 
 This project is a chatbot application based on Ollama. The frontend is developed with React and Vite, while the backend uses the Hono framework running on Node.js.
 
@@ -35,37 +35,39 @@ The frontend is developed using React and Vite and includes the following featur
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/erenasiroglu/chatbot-ollama.git
-cd chatbot-ollama
-2. Backend setup:
-   
-cd backend
-npm install
+ git clone https://github.com/erenasiroglu/chatbot-ollama.git
+ cd chatbot-ollama
 
-4. Frontend setup:
-cd ../frontend
-npm install
+
+2. Backend setup:
+ cd backend
+ npm install
+
+3. Frontend setup:
+ cd ../frontend
+ npm install
    
 ## Running the Application
 
 1. Start the backend:
-cd backend
-npm run dev
+ cd backend
+ npm run dev
 
 The backend will run using `tsx watch` and automatically reload on changes.
 
 3. Start the frontend:
-cd frontend
-npm run dev
-The frontend will run in development mode using Vite.
+ cd frontend
+ npm run dev
 
-3. Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`) to view the application.
+ The frontend will run in development mode using Vite.
+
+4. Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`) to view the application.
 
 ## Building for Production
 
 To build the frontend project for production:
-cd frontend
-npm run build
+ cd frontend
+ npm run build
 
 The built files will be created in the `frontend/dist` directory.
 
